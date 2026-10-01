@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formulari de registre</h1>
+    <form action="">
+        <label for="nom">Nom:</label><br>
+        <input type="text" name="nom" id="nom" /><br>
+        <label for="Cognoms">Cognoms:</label><br>
+        <input type="text" name="cognoms" id="cognoms" /><br>
+        <label for="email">Email:</label><br>
+        <input type="email" name="email" id="email" required placeholder="nom@exemple.com"/><br>
+        <label for="contrasenya">Contrasenya:</label><br>
+        <input type="password" name="contrasenya" id="contrasenya"><br><br>
+        <label for="date">Data de naixement:</label><br>
+        <input type="date" name="data_naixement" id="home"><br><br>
+        <label for="">Gènere</label>
+        <input type="radio" name="genere" id="home">
+        <label for="home">Home</label>
+        <input type="radio" name="genere" id="dona">
+        <label for="dona">Dona</label>
+        <input type="radio" name="genere" id="altre">
+        <label for="altres">Altres</label><br><br>
+        <label for="pais">País de residència</label>
+        <select name="pais" id="pais">
+            <option value="">--SELECCIONA UN PAIS</option>
+            <option value="ES">Espanya</option>
+            <option value="FR">França</option>
+            <option value="IT">Itàlia</option>
+            <option value="AL">Alemanya</option>
+        </select><br><br>
+        
+        <input type="checkbox" name="interessos" id="tecnologia">
+        <label for="">Tecnologia</label>
+        <input type="checkbox" name="interessos" id="musica">
+        <label for="">Musica</label>
+        <input type="checkbox" name="interessos" id="eports">
+        <label for="">Esports</label><br><br>
+
+        <label for="missatge">Comentaris adicionals:</label><br>
+        <textarea name="missatge" id="misatge" rows="4" cols="40" placeholder="Escriu el teu missatge aquí"></textarea><br><br>
+        <button type="submit">Enviar</button>
+        <button type="reset">Netejar Formulari</button>
+    </form>
+</body>
+</html>
